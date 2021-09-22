@@ -1,0 +1,103 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+.navbar{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand{
+    padding-top: 1rem;
+}
+.navbar-brand h1 { 
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand p { 
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-nav li{
+    color: #951C49;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .navbar-nav li:hover{
+  background: #E7E7E7;
+  }
+  #phone {
+    margin-top: 5px;
+   
+  }
+  #phone a { 
+    text-align: right;
+    padding-bottom: 0;
+    text-decoration: none;
+  }
+  #phone a span{
+    font-size: 1.8em;
+    color: #951C49;
+  }
+  #phone div { 
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+  }
+   button.navbar-toggler .navbar-nav {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+ @media (min-width: 992px) and (max-width: 1199px){
+    #img-logo{
+     width: 100px;
+     height: 100px;
+     }
+ }
+ 
+  .cards{
+      margin: 1rem;
+      position: relative;
+}
+  .cards img {
+      border-radius: 2rem;
+      width:350px;
+      height: 250px;
+  }
+  .cards  div h2{
+      text-transform: uppercase;
+      background-color: black;
+      text-align: center;
+      width:350px;
+      opacity: .7;
+      color:#fff;
+      position: absolute;
+      bottom: 0px;
+      z-index: 999;
+      margin: 0 auto;
+      
+  }
+  .cards a{
+    text-decoration: none;
+
+  }
+  footer{
+      background-color: rgb(146, 140, 140);
+      padding: 10px;
+  }
+ 
+ 
